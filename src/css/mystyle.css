@@ -1,0 +1,50 @@
+.widgit{
+    
+    display: flex;
+    flex-direction: column;
+    justify-self: start;
+    width: 280px;
+    border: 1px solid;
+    /* background-color: aqua; */
+    
+    
+    
+
+}
+.listImgCards{
+    display: flex; 
+    /* filter: grayscale(100%); */
+    justify-content: space-around;
+    
+    list-style: none;
+    width: 100%;    
+    padding: 0px;
+    /* background-color: antiquewhite; */
+    
+    
+}
+/* .log{
+    width: 120;
+    height: 60;
+    max-width: inherit;
+    object-fit: cover;
+} */
+
+.item  {
+    /* flex-basis: 100%; */
+    filter: grayscale(100%);
+    
+}
+
+.active {
+    filter: grayscale(0%);
+}
+.checkCard{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 5px;
+    
+}
+
+
+
