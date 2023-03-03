@@ -1,4 +1,8 @@
 import isValidLun from './ValidLun.js';
+import visa from '../img/visa.png';
+import mc from '../img/masterCard.png';
+import mir from '../img/mir-logo.png';
+import amerexp from '../img/amerexp.png';
 
 export default class AddWidgetCard {
   /** на вход принемает место где будет отрисован наш виджет */
@@ -10,16 +14,16 @@ export default class AddWidgetCard {
     return `
         <ul class="listImgCards">
         <li class="item" data-name='visa'> 
-            <img class="logViza" src='https://abali.ru/wp-content/uploads/2012/10/visa.png' alt="VISA">
+            <img class="logViza" src=${visa}' alt="VISA">
         </li>
         <li class="item" data-name='mc'>
-            <img class="logMasterCard" src="https://abali.ru/wp-content/uploads/2012/10/mastercard.png" alt="MasterCard">
+            <img class="logMasterCard" src=${mc} alt="MasterCard">
         </li>
         <li class="item" data-name='mir'>
-            <img src="./dist/da666b58ddd78167996eed0b453bf457.png" alt="MIR">
+            <img src=${mir} alt="MIR">
         </li>
         <li class="item" data-name='american'>
-            <img src="https://abali.ru/wp-content/uploads/2012/10/american-express.png" alt="American">
+            <img src=${amerexp} alt="American">
         </li>
 
     </ul>
